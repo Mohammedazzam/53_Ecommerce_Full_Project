@@ -1,0 +1,45 @@
+/* rest css */
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: #fff;
+  font-size: 1.6rem;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+input,
+button {
+  border: none;
+  outline: 0;
+  background: transparent;
+}
+
+input {
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+}
